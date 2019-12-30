@@ -1,0 +1,305 @@
+; This file is for unifying the coding style for different editors and IDEs.
+; More information at http://editorconfig.org
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = false
+max_line_length = 120
+tab_width = 4
+ij_continuation_indent_size = 8
+ij_formatter_off_tag = @formatter:off
+ij_formatter_on_tag = @formatter:on
+ij_formatter_tags_enabled = false
+ij_smart_tabs = false
+ij_wrap_on_typing = false
+
+[*.blade.php]
+ij_blade_keep_indents_on_empty_lines = false
+
+[*.css]
+ij_css_align_closing_brace_with_properties = false
+ij_css_blank_lines_around_nested_selector = 1
+ij_css_blank_lines_between_blocks = 1
+ij_css_brace_placement = 0
+ij_css_hex_color_long_format = false
+ij_css_hex_color_lower_case = false
+ij_css_hex_color_short_format = false
+ij_css_hex_color_upper_case = false
+ij_css_keep_blank_lines_in_code = 2
+ij_css_keep_indents_on_empty_lines = false
+ij_css_keep_single_line_blocks = false
+ij_css_properties_order = font,font-family,font-size,font-weight,font-style,font-variant,font-size-adjust,font-stretch,line-height,position,z-index,top,right,bottom,left,display,visibility,float,clear,overflow,overflow-x,overflow-y,clip,zoom,align-content,align-items,align-self,flex,flex-flow,flex-basis,flex-direction,flex-grow,flex-shrink,flex-wrap,justify-content,order,box-sizing,width,min-width,max-width,height,min-height,max-height,margin,margin-top,margin-right,margin-bottom,margin-left,padding,pad...
+ij_css_space_after_colon = true
+ij_css_space_before_opening_brace = true
+ij_css_value_alignment = 0
+
+[*.feature]
+indent_size = 2
+ij_gherkin_keep_indents_on_empty_lines = false
+
+[*.haml]
+indent_size = 2
+ij_haml_keep_indents_on_empty_lines = false
+
+[*.less]
+indent_size = 2
+ij_less_align_closing_brace_with_properties = false
+ij_less_blank_lines_around_nested_selector = 1
+ij_less_blank_lines_between_blocks = 1
+ij_less_brace_placement = 0
+ij_less_hex_color_long_format = false
+ij_less_hex_color_lower_case = false
+ij_less_hex_color_short_format = false
+ij_less_hex_color_upper_case = false
+ij_less_keep_blank_lines_in_code = 2
+ij_less_keep_indents_on_empty_lines = false
+ij_less_keep_single_line_blocks = false
+ij_less_properties_order = font,font-family,font-size,font-weight,font-style,font-variant,font-size-adjust,font-stretch,line-height,position,z-index,top,right,bottom,left,display,visibility,float,clear,overflow,overflow-x,overflow-y,clip,zoom,align-content,align-items,align-self,flex,flex-flow,flex-basis,flex-direction,flex-grow,flex-shrink,flex-wrap,justify-content,order,box-sizing,width,min-width,max-width,height,min-height,max-height,margin,margin-top,margin-right,margin-bottom,margin-left,padding,pa...
+ij_less_space_after_colon = true
+ij_less_space_before_opening_brace = true
+ij_less_value_alignment = 0
+
+[*.sass]
+indent_size = 2
+ij_sass_align_closing_brace_with_properties = false
+ij_sass_blank_lines_around_nested_selector = 1
+ij_sass_blank_lines_between_blocks = 1
+ij_sass_brace_placement = 0
+ij_sass_hex_color_long_format = false
+ij_sass_hex_color_lower_case = false
+ij_sass_hex_color_short_format = false
+ij_sass_hex_color_upper_case = false
+ij_sass_keep_blank_lines_in_code = 2
+ij_sass_keep_indents_on_empty_lines = false
+ij_sass_keep_single_line_blocks = false
+ij_sass_properties_order = font,font-family,font-size,font-weight,font-style,font-variant,font-size-adjust,font-stretch,line-height,position,z-index,top,right,bottom,left,display,visibility,float,clear,overflow,overflow-x,overflow-y,clip,zoom,align-content,align-items,align-self,flex,flex-flow,flex-basis,flex-direction,flex-grow,flex-shrink,flex-wrap,justify-content,order,box-sizing,width,min-width,max-width,height,min-height,max-height,margin,margin-top,margin-right,margin-bottom,margin-left,padding,pa...
+ij_sass_space_after_colon = true
+ij_sass_space_before_opening_brace = true
+ij_sass_value_alignment = 0
+
+[*.scss]
+indent_size = 2
+ij_scss_align_closing_brace_with_properties = false
+ij_scss_blank_lines_around_nested_selector = 1
+ij_scss_blank_lines_between_blocks = 1
+ij_scss_brace_placement = 0
+ij_scss_hex_color_long_format = false
+ij_scss_hex_color_lower_case = false
+ij_scss_hex_color_short_format = false
+ij_scss_hex_color_upper_case = false
+ij_scss_keep_blank_lines_in_code = 2
+ij_scss_keep_indents_on_empty_lines = false
+ij_scss_keep_single_line_blocks = false
+ij_scss_properties_order = font,font-family,font-size,font-weight,font-style,font-variant,font-size-adjust,font-stretch,line-height,position,z-index,top,right,bottom,left,display,visibility,float,clear,overflow,overflow-x,overflow-y,clip,zoom,align-content,align-items,align-self,flex,flex-flow,flex-basis,flex-direction,flex-grow,flex-shrink,flex-wrap,justify-content,order,box-sizing,width,min-width,max-width,height,min-height,max-height,margin,margin-top,margin-right,margin-bottom,margin-left,padding,pa...
+ij_scss_space_after_colon = true
+ij_scss_space_before_opening_brace = true
+ij_scss_value_alignment = 0
+
+[*.twig]
+ij_twig_keep_indents_on_empty_lines = false
+ij_twig_spaces_inside_delimiters = true
+ij_twig_spaces_inside_variable_delimiters = true
+
+[.editorconfig]
+ij_editorconfig_align_group_field_declarations = false
+ij_editorconfig_space_after_colon = false
+ij_editorconfig_space_after_comma = true
+ij_editorconfig_space_before_colon = false
+ij_editorconfig_space_before_comma = false
+ij_editorconfig_spaces_around_assignment_operators = true
+
+[{*.bash,*.zsh,*.sh}]
+ij_shell_binary_ops_start_line = false
+ij_shell_keep_column_alignment_padding = false
+ij_shell_minify_program = false
+ij_shell_redirect_followed_by_space = false
+ij_shell_switch_cases_indented = false
+
+[{*.cjsx,*.coffee}]
+indent_size = 2
+tab_width = 2
+ij_continuation_indent_size = 2
+ij_coffeescript_align_function_body = false
+ij_coffeescript_align_imports = false
+ij_coffeescript_align_multiline_array_initializer_expression = true
+ij_coffeescript_align_multiline_parameters = true
+ij_coffeescript_align_multiline_parameters_in_calls = false
+ij_coffeescript_align_object_properties = 0
+ij_coffeescript_align_union_types = false
+ij_coffeescript_align_var_statements = 0
+ij_coffeescript_array_initializer_new_line_after_left_brace = false
+ij_coffeescript_array_initializer_right_brace_on_new_line = false
+ij_coffeescript_array_initializer_wrap = normal
+ij_coffeescript_blacklist_imports = rxjs/Rx,node_modules/**/*,@angular/material,@angular/material/typings/**
+ij_coffeescript_blank_lines_around_function = 1
+ij_coffeescript_call_parameters_new_line_after_left_paren = false
+ij_coffeescript_call_parameters_right_paren_on_new_line = false
+ij_coffeescript_call_parameters_wrap = normal
+ij_coffeescript_chained_call_dot_on_new_line = true
+ij_coffeescript_comma_on_new_line = false
+ij_coffeescript_enforce_trailing_comma = keep
+ij_coffeescript_field_prefix = _
+ij_coffeescript_file_name_style = relaxed
+ij_coffeescript_force_quote_style = false
+ij_coffeescript_force_semicolon_style = false
+ij_coffeescript_function_expression_brace_style = end_of_line
+ij_coffeescript_import_merge_members = global
+ij_coffeescript_import_prefer_absolute_path = global
+ij_coffeescript_import_sort_members = true
+ij_coffeescript_import_sort_module_name = false
+ij_coffeescript_import_use_node_resolution = true
+ij_coffeescript_imports_wrap = on_every_item
+ij_coffeescript_indent_chained_calls = true
+ij_coffeescript_indent_package_children = 0
+ij_coffeescript_jsx_attribute_value = braces
+ij_coffeescript_keep_blank_lines_in_code = 2
+ij_coffeescript_keep_first_column_comment = true
+ij_coffeescript_keep_indents_on_empty_lines = false
+ij_coffeescript_keep_line_breaks = true
+ij_coffeescript_keep_simple_methods_in_one_line = false
+ij_coffeescript_method_parameters_new_line_after_left_paren = false
+ij_coffeescript_method_parameters_right_paren_on_new_line = false
+ij_coffeescript_method_parameters_wrap = off
+ij_coffeescript_object_literal_wrap = on_every_item
+ij_coffeescript_prefer_as_type_cast = false
+ij_coffeescript_reformat_c_style_comments = false
+ij_coffeescript_space_after_comma = true
+ij_coffeescript_space_after_dots_in_rest_parameter = false
+ij_coffeescript_space_after_generator_mult = true
+ij_coffeescript_space_after_property_colon = true
+ij_coffeescript_space_after_type_colon = true
+ij_coffeescript_space_after_unary_not = false
+ij_coffeescript_space_before_async_arrow_lparen = true
+ij_coffeescript_space_before_class_lbrace = true
+ij_coffeescript_space_before_comma = false
+ij_coffeescript_space_before_function_left_parenth = true
+ij_coffeescript_space_before_generator_mult = false
+ij_coffeescript_space_before_property_colon = false
+ij_coffeescript_space_before_type_colon = false
+ij_coffeescript_space_before_unary_not = false
+ij_coffeescript_spaces_around_additive_operators = true
+ij_coffeescript_spaces_around_arrow_function_operator = true
+ij_coffeescript_spaces_around_assignment_operators = true
+ij_coffeescript_spaces_around_bitwise_operators = true
+ij_coffeescript_spaces_around_equality_operators = true
+ij_coffeescript_spaces_around_logical_operators = true
+ij_coffeescript_spaces_around_multiplicative_operators = true
+ij_coffeescript_spaces_around_relational_operators = true
+ij_coffeescript_spaces_around_shift_operators = true
+ij_coffeescript_spaces_around_unary_operator = false
+ij_coffeescript_spaces_within_array_initializer_braces = false
+ij_coffeescript_spaces_within_array_initializer_brackets = false
+ij_coffeescript_spaces_within_imports = false
+ij_coffeescript_spaces_within_index_brackets = false
+ij_coffeescript_spaces_within_interpolation_expressions = false
+ij_coffeescript_spaces_within_method_call_parentheses = false
+ij_coffeescript_spaces_within_method_parentheses = false
+ij_coffeescript_spaces_within_object_braces = false
+ij_coffeescript_spaces_within_object_literal_braces = false
+ij_coffeescript_spaces_within_object_type_braces = true
+ij_coffeescript_spaces_within_range_brackets = false
+ij_coffeescript_spaces_within_type_assertion = false
+ij_coffeescript_spaces_within_union_types = true
+ij_coffeescript_union_types_wrap = on_every_item
+ij_coffeescript_use_chained_calls_group_indents = false
+ij_coffeescript_use_double_quotes = true
+ij_coffeescript_use_explicit_js_extension = global
+ij_coffeescript_use_path_mapping = always
+ij_coffeescript_use_public_modifier = false
+ij_coffeescript_use_semicolon_after_statement = false
+ij_coffeescript_var_declaration_wrap = normal
+
+[{*.ctp,*.phtml,*.module,*.php,*.php5,*.php4,*.hphp,*.inc}]
+max_line_length = 130
+ij_continuation_indent_size = 4
+ij_php_align_assignments = true
+ij_php_align_class_constants = true
+ij_php_align_group_field_declarations = false
+ij_php_align_inline_comments = false
+ij_php_align_key_value_pairs = true
+ij_php_align_multiline_array_initializer_expression = true
+ij_php_align_multiline_binary_operation = false
+ij_php_align_multiline_chained_methods = false
+ij_php_align_multiline_extends_list = true
+ij_php_align_multiline_for = false
+ij_php_align_multiline_parameters = true
+ij_php_align_multiline_parameters_in_calls = false
+ij_php_align_multiline_ternary_operation = false
+ij_php_align_phpdoc_comments = true
+ij_php_align_phpdoc_param_names = true
+ij_php_api_weight = 28
+ij_php_array_initializer_new_line_after_left_brace = false
+ij_php_array_initializer_right_brace_on_new_line = false
+ij_php_array_initializer_wrap = normal
+ij_php_assignment_wrap = normal
+ij_php_author_weight = 28
+ij_php_binary_operation_sign_on_next_line = true
+ij_php_binary_operation_wrap = normal
+ij_php_blank_lines_after_class_header = 0
+ij_php_blank_lines_after_function = 1
+ij_php_blank_lines_after_imports = 1
+ij_php_blank_lines_after_opening_tag = 0
+ij_php_blank_lines_after_package = 0
+ij_php_blank_lines_around_class = 1
+ij_php_blank_lines_around_constants = 0
+ij_php_blank_lines_around_field = 1
+ij_php_blank_lines_around_method = 2
+ij_php_blank_lines_before_class_end = 0
+ij_php_blank_lines_before_imports = 1
+ij_php_blank_lines_before_method_body = 0
+ij_php_blank_lines_before_package = 1
+ij_php_blank_lines_before_return_statement = 0
+ij_php_block_brace_style = end_of_line
+ij_php_call_parameters_new_line_after_left_paren = true
+ij_php_call_parameters_right_paren_on_new_line = true
+ij_php_call_parameters_wrap = on_every_item
+ij_php_catch_on_new_line = true
+ij_php_category_weight = 28
+ij_php_class_brace_style = next_line
+ij_php_comma_after_last_array_element = false
+ij_php_concat_spaces = true
+ij_php_copyright_weight = 28
+ij_php_deprecated_weight = 28
+ij_php_do_while_brace_force = always
+ij_php_else_if_style = as_is
+ij_php_else_on_new_line = true
+ij_php_example_weight = 28
+ij_php_extends_keyword_wrap = normal
+ij_php_extends_list_wrap = normal
+ij_php_fields_default_visibility = protected
+ij_php_filesource_weight = 28
+ij_php_finally_on_new_line = true
+ij_php_for_brace_force = always
+ij_php_for_statement_new_line_after_left_paren = true
+ij_php_for_statement_right_paren_on_new_line = true
+ij_php_for_statement_wrap = normal
+ij_php_force_short_declaration_array_style = false
+ij_php_global_weight = 28
+ij_php_group_use_wrap = on_every_item
+ij_php_if_brace_force = always
+ij_php_if_lparen_on_next_line = false
+ij_php_if_rparen_on_next_line = true
+ij_php_ignore_weight = 28
+ij_php_import_sorting = alphabetic
+ij_php_indent_break_from_case = true
+ij_php_indent_case_from_switch = true
+ij_php_indent_code_in_php_tags = false
+ij_php_internal_weight = 28
+ij_php_keep_blank_lines_after_lbrace = 2
+ij_php_keep_blank_lines_before_right_brace = 2
+ij_php_keep_blank_lines_in_code = 2
+ij_php_keep_blank_lines_in_declarations = 2
+ij_php_keep_control_statement_in_one_line = false
+ij_php_keep_first_column_comment = true
+ij_php_keep_indents_on_empty_lines = false
+ij_php_keep_line_breaks = true
+ij_php_keep_rparen_and_lbrace_on_one_line = false
+ij_php_keep_simple_methods_in_one_line = false
+ij_php_lambda_brace_style = end_of_line
+ij_php_license_weight = 28
+ij_php_line_comment_add_space = false

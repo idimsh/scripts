@@ -8,6 +8,19 @@
 ## ~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\
 export EDITOR=nano
 export HISTSIZE=2000
+export HISTCONTROL=ignoredups
+
+if [ -f ~/.inputrc ]; then
+    if ! grep -q "set bell-style none" ~/.inputrc; then
+        echo "" >> ~/.inputrc
+        echo "set bell-style none" >> ~/.inputrc
+        echo "" >> ~/.inputrc
+    fi
+else
+    echo "" >> ~/.inputrc
+    echo "set bell-style none" >> ~/.inputrc
+    echo "" >> ~/.inputrc
+fi
 
 export PS1='${debian_chroot:+($debian_chroot)}\[\033[1;31m\]\h\[\033[0m\]:\[\033[1;32m\]\w\[\033[0m\]\$ '
 

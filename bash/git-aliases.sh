@@ -2,7 +2,7 @@
 ## Git aliases
 ##
 ## Usage:
-## echo -e "\n\n## idimsh bash aliases ####\n. /opt/git-aliases\n\n" | sudo tee -a /root/.bashrc /etc/skel/.bashrc /home/*/.bashrc
+## echo -e "\n\n## idimsh git aliases ####\n. /opt/git-aliases\n\n" | sudo tee -a /root/.bashrc /etc/skel/.bashrc /home/*/.bashrc
 ##
 ## To be sourced from .bashrc
 ## ~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\
@@ -17,7 +17,9 @@ alias gsmu='git submodule update --init --recursive'
 alias glol='git log --oneline --max-count=30'
 
 # git log formatted
-alias gl='git log --pretty=format:"%C(auto,yellow)%h %C(auto,cyan)%>(20,trunc)%ad %C(auto,green)%<(20,trunc)%aN%C(auto,reset)%s%C(auto,red)% gD% D" --date=format:"%Y-%m-%d %H:%M:%S" --max-count=30'
+alias gl='git log --pretty=format:"%C(auto,yellow)%h %C(auto,cyan)%>(20,trunc)%ad %C(auto,green)%<(20,trunc)%aN %C(auto,reset)%s%C(auto,red)% gD% D" --date=format:"%Y-%m-%d %H:%M:%S" --max-count=30'
+
+alias gs='git status'
 
 ## Git list by update time local
 alias gupdl='git for-each-ref --sort=-committerdate refs/heads --format="%(HEAD)%(color:yellow)%(refname:short) %(color:bold green)%(committerdate:relative)|%(color:blue)%(subject)|%(color:magenta)%(authorname)%(color:reset)"'
